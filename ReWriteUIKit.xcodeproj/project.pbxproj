@@ -16,6 +16,8 @@
 		0AB4235B2079C6E800A787CC /* ReWriteUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4235A2079C6E800A787CC /* ReWriteUIKitTests.m */; };
 		0AB423662079C6E800A787CC /* ReWriteUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB423652079C6E800A787CC /* ReWriteUIKitUITests.m */; };
 		0AB423762079EAE900A787CC /* CUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB423752079EAE900A787CC /* CUITableView.m */; };
+		0AB423792079F13E00A787CC /* CUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB423782079F13E00A787CC /* CUITableViewCell.m */; };
+		0AB4237C207A072700A787CC /* CUITableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4237B207A072700A787CC /* CUITableViewSection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		0AB423672079C6E800A787CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AB423742079EAE900A787CC /* CUITableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUITableView.h; sourceTree = "<group>"; };
 		0AB423752079EAE900A787CC /* CUITableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUITableView.m; sourceTree = "<group>"; };
+		0AB423772079F13E00A787CC /* CUITableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUITableViewCell.h; sourceTree = "<group>"; };
+		0AB423782079F13E00A787CC /* CUITableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUITableViewCell.m; sourceTree = "<group>"; };
+		0AB4237A207A072700A787CC /* CUITableViewSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CUITableViewSection.h; sourceTree = "<group>"; };
+		0AB4237B207A072700A787CC /* CUITableViewSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CUITableViewSection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,10 @@
 			children = (
 				0AB423742079EAE900A787CC /* CUITableView.h */,
 				0AB423752079EAE900A787CC /* CUITableView.m */,
+				0AB423772079F13E00A787CC /* CUITableViewCell.h */,
+				0AB423782079F13E00A787CC /* CUITableViewCell.m */,
+				0AB4237A207A072700A787CC /* CUITableViewSection.h */,
+				0AB4237B207A072700A787CC /* CUITableViewSection.m */,
 			);
 			path = ChenUIKit;
 			sourceTree = "<group>";
@@ -279,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB423462079C6E700A787CC /* ViewController.m in Sources */,
+				0AB4237C207A072700A787CC /* CUITableViewSection.m in Sources */,
 				0AB423762079EAE900A787CC /* CUITableView.m in Sources */,
+				0AB423792079F13E00A787CC /* CUITableViewCell.m in Sources */,
 				0AB423512079C6E700A787CC /* main.m in Sources */,
 				0AB423432079C6E700A787CC /* AppDelegate.m in Sources */,
 			);
@@ -446,6 +458,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQNCVGRWP6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReWriteUIKit",
+				);
 				INFOPLIST_FILE = ReWriteUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenyuliang.ReWriteUIKit;
@@ -460,6 +476,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LQNCVGRWP6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReWriteUIKit",
+				);
 				INFOPLIST_FILE = ReWriteUIKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chenyuliang.ReWriteUIKit;
